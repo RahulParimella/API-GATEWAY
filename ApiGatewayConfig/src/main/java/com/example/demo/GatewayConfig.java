@@ -21,7 +21,6 @@ public class GatewayConfig {
                 .route("GASBOOKING-MICROSERVICE", r -> r
                         .path("/api/**")   // still plural because you updated controller
                         .uri("http://localhost:8081"))
-
                 .build();
     }
 
